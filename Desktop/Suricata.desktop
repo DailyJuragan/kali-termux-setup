@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Suricata IDS
+Comment=Blue Team - Intrusion Detection
+Exec=xfce4-terminal --title="Suricata" -e "bash -c 'echo Contoh: sudo suricata -c /etc/suricata/suricata.yaml -r namafile.pcapng; echo Cek hasil: cat /var/log/suricata/fast.log; exec bash'"
+Icon=network-server
+Terminal=false
+Categories=Security;

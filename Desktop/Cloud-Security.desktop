@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Cloud Security Tools
+Comment=AWS CLI + ScoutSuite
+Exec=xfce4-terminal --title="Cloud Security" -e "bash -c 'echo === AWS CLI ===; aws --version; echo; echo === ScoutSuite ===; scout --version; echo; echo Ketik: aws configure, atau scout aws; exec bash'"
+Icon=network-workgroup
+Terminal=false
+Categories=Security;

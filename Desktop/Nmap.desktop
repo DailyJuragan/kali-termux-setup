@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Nmap
+Exec=xfce4-terminal -T Nmap -e "bash -c 'nmap -h | less; exec bash'"
+Icon=kali-nmap
+Type=Application
+Terminal=false

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Burp
+Exec=xfce4-terminal -T Burp -e "bash -c 'burpsuite; exec bash'"
+Icon=burpsuite
+Type=Application
+Terminal=false

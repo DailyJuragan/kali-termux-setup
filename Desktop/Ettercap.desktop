@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Ettercap
+Exec=xfce4-terminal -T Ettercap -e "bash -c 'sudo -E ettercap -G; exec bash'"
+Icon=ettercap
+Type=Application
+Terminal=false

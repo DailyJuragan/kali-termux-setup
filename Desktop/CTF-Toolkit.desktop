@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=CTF Toolkit
+Comment=sqlmap, gobuster, nikto, gdb, radare2, steghide
+Exec=xfce4-terminal --title="CTF Toolkit" -e "bash -c 'echo Tools tersedia:; echo - sqlmap; echo - gobuster; echo - nikto; echo - gdb; echo - radare2; echo - steghide; echo; exec bash'"
+Icon=applications-development
+Terminal=false
+Categories=Security;

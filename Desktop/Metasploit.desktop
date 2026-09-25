@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Metasploit
+Comment=Red Team - Exploitation Framework
+Icon=kali-metasploit-framework
+Terminal=false
+Categories=Security;
+StartupNotify=true
+Exec=xfce4-terminal -e "proot-distro login kali -- msfconsole"

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Lynis
+Exec=xfce4-terminal -T Lynis -e "bash -c 'sudo lynis audit system; exec bash'"
+Icon=security-high
+Type=Application
+Terminal=false

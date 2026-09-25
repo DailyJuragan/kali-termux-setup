@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Brave
+Exec=xfce4-terminal -T Brave -e "bash -c 'brave-browser --no-sandbox; exec bash'"
+Icon=com.brave.Browser
+Type=Application
+Terminal=false

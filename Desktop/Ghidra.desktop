@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Ghidra
+Comment=Reverse Engineering Tool
+Exec=xfce4-terminal --title="Ghidra Launcher" -e "bash -c 'export DISPLAY=:0; cd ~/Downloads/ghidra_12.1.3_PUBLIC && ./ghidraRun'"
+Icon=kali-ghidra
+Terminal=false
+Categories=Security;

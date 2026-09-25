@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Wireshark
+Exec=xfce4-terminal -T Wireshark -e "bash -c 'sudo -E wireshark; exec bash'"
+Icon=wireshark
+Type=Application
+Terminal=false

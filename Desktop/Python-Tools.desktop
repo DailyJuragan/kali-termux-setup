@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Python Security Scripts
+Comment=Tool Development - Custom Scripts
+Exec=xfce4-terminal --title="Python Tools" --working-directory=/root -e "bash"
+Icon=text-x-python
+Terminal=false
+Categories=Development;
