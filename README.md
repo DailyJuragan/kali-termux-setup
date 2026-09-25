@@ -11,34 +11,43 @@ Setup Kali Linux lengkap yang jalan di Android lewat Termux dan Termux:X11, suda
 
 ## Cara Install dari Nol
 
-### 1. Install Termux dan Termux:X11
-Download dan install kedua APK di atas.
+Jalankan urutan berikut satu per satu di Termux, tunggu tiap perintah selesai baru lanjut ke baris berikutnya.
 
-### 2. Buka Termux, install proot-distro
-pkg update && pkg upgrade -y
-pkg install proot-distro -y
+### 1. Install Termux dan Termux:X11
+Download dan install kedua APK dari link di atas.
+
+### 2. Update Termux dan install proot-distro
+
+    pkg update && pkg upgrade -y
+    pkg install proot-distro -y
 
 ### 3. Install Kali Linux
-proot-distro install kali
+
+    proot-distro install kali
 
 ### 4. Masuk ke Kali dan install XFCE
-proot-distro login kali
-apt update && apt install -y xfce4 xfce4-terminal dbus-x11
+
+    proot-distro login kali
+    apt update && apt install -y xfce4 xfce4-terminal dbus-x11
 
 ### 5. Copy script peluncur
-Copy start-kali.sh dari repo ini ke folder home Termux, lalu:
-chmod +x start-kali.sh
+Download file start-kali.sh dari repo ini, taruh di folder home Termux, lalu:
 
-### 6. Jalankan
-./start-kali.sh
-Lalu buka aplikasi Termux:X11 untuk melihat desktopnya.
+    chmod +x start-kali.sh
+
+### 6. Jalankan Kali
+
+    ./start-kali.sh
+
+Setelah itu buka aplikasi Termux:X11 (terpisah dari Termux) untuk melihat desktopnya muncul.
 
 ### 7. Terapkan tampilan yang sama (opsional)
-Copy folder xfce4-config dari repo ini ke ~/.config/xfce4 di dalam Kali, dan folder Desktop ke ~/Desktop.
+Di dalam Kali, copy folder xfce4-config dari repo ini ke ~/.config/xfce4, dan folder Desktop ke ~/Desktop, supaya wallpaper dan ikon sama.
 
 ### 8. Install semua tool
-Lihat daftar di daftar-tools.txt, atau install dengan:
-sudo apt install -y nmap wireshark suricata lynis yara ettercap-graphical metasploit-framework sqlmap hydra john nikto gobuster tshark
+Lihat daftar lengkap di daftar-tools.txt, atau install sekaligus dengan:
+
+    sudo apt install -y nmap wireshark suricata lynis yara ettercap-graphical metasploit-framework sqlmap hydra john nikto gobuster tshark
 
 ## Isi Repo
 - start-kali.sh - script peluncur XFCE
